@@ -28,7 +28,7 @@ git clone https://github.com/Tadynas/btc-converter.git
 2. Navigate to project directory
 
 ```sh
-cd ip-address-tracker
+cd btc-converter
 ```
 
 3. Install dependencies
