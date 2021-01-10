@@ -1,0 +1,43 @@
+.item
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 100%
+  background-color: white
+  border-radius: 30px
+  padding: 22px 32px
+  margin-top: 32px
+  &:last-child
+    margin-bottom: 32px
+  @media screen and ( max-width: 430px )
+    padding: 18px 22px
+  @media screen and ( max-width: 320px )
+    padding: 12px
+    
+
+  .item__name
+    display: flex
+    align-items: center
+    font-weight: $medium
+    flex-grow: 3
+    @media screen and ( max-width: 430px )
+      flex-grow: 2
+    &::before
+      margin-right: 15px
+      height: 30px
+    &.usd
+      &::before
+        content: url('/images/flags/usa-flag.svg')
+    &.eur
+      &::before
+        content: url('/images/flags/eu-flag.svg')
+    &.gbp
+      &::before
+        content: url('/images/flags/britain-flag.svg')
+
+  .item__amount
+    font-size: 2.4rem
+    font-weight: $bold
+    flex-grow: 2
+    @media screen and ( max-width: 430px )
+      font-size: 1.8rem

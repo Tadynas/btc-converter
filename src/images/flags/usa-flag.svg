@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_116" data-name="Path 116" d="M30,15A15,15,0,1,1,15,0,15,15,0,0,1,30,15Z" transform="translate(6.84 0.42)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_21" data-name="Layer 21" transform="translate(-6.84 -0.42)">
+    <g id="Layer_1" data-name="Layer 1">
+      <g id="Group_11" data-name="Group 11" clip-path="url(#clip-path)">
+        <rect id="Rectangle_27" data-name="Rectangle 27" width="38.86" height="30.81" transform="translate(0 0.38)" fill="#fff"/>
+        <rect id="Rectangle_28" data-name="Rectangle 28" width="38.86" height="2.44" fill="#cf142b"/>
+        <rect id="Rectangle_29" data-name="Rectangle 29" width="38.86" height="2.44" transform="translate(0 4.83)" fill="#cf142b"/>
+        <rect id="Rectangle_30" data-name="Rectangle 30" width="38.86" height="2.44" transform="translate(0 9.65)" fill="#cf142b"/>
+        <rect id="Rectangle_31" data-name="Rectangle 31" width="38.86" height="2.44" transform="translate(0 14.47)" fill="#cf142b"/>
+        <rect id="Rectangle_32" data-name="Rectangle 32" width="38.86" height="2.44" transform="translate(0 19.3)" fill="#cf142b"/>
+        <rect id="Rectangle_33" data-name="Rectangle 33" width="38.86" height="2.44" transform="translate(0 24.13)" fill="#cf142b"/>
+        <rect id="Rectangle_34" data-name="Rectangle 34" width="38.86" height="2.44" transform="translate(0 28.95)" fill="#cf142b"/>
+        <rect id="Rectangle_35" data-name="Rectangle 35" width="23.81" height="16.91" fill="#00237c"/>
+        <path id="Path_66" data-name="Path 66" d="M2.21.92l.22.62.65.02-.51.41.18.63-.54-.37-.55.37.18-.63-.52-.41.66-.02Z" fill="#fff"/>
+        <path id="Path_67" data-name="Path 67" d="M6.08.92l.23.62.66.02-.52.41.18.63-.55-.37-.54.37.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_68" data-name="Path 68" d="M9.97.92l.22.62.66.02-.52.41.18.63-.54-.37-.55.37.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_69" data-name="Path 69" d="M13.85.92l.22.62.66.02-.52.41.18.63-.54-.37-.55.37.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_70" data-name="Path 70" d="M17.73.92l.22.62.66.02-.52.41.18.63-.54-.37-.55.37.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_71" data-name="Path 71" d="M21.61.92l.22.62.66.02-.51.41.17.63-.54-.37-.55.37.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_72" data-name="Path 72" d="M4.24,2.6l.23.61.65.03-.51.41.18.62-.55-.36-.54.36.17-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_73" data-name="Path 73" d="M8.12,2.6l.23.61L9,3.24l-.51.41.17.62-.54-.36-.54.36.17-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_74" data-name="Path 74" d="M12,2.6l.23.61.65.03-.51.41.18.62L12,3.91l-.54.36.17-.62-.51-.41.66-.03Z" fill="#fff"/>
+        <path id="Path_75" data-name="Path 75" d="M15.88,2.6l.23.61.65.03-.51.41.18.62-.55-.36-.54.36.18-.62L15,3.24l.65-.03Z" fill="#fff"/>
+        <path id="Path_76" data-name="Path 76" d="M19.76,2.6l.23.61.65.03-.51.41.18.62-.55-.36-.54.36.18-.62-.52-.41.66-.03Z" fill="#fff"/>
+        <path id="Path_77" data-name="Path 77" d="M2.21,4.28l.22.61.65.03-.51.4.18.63-.54-.36-.55.36.18-.63-.52-.4.66-.03Z" fill="#fff"/>
+        <path id="Path_78" data-name="Path 78" d="M6.08,4.28l.23.61.66.03-.52.4.18.63-.55-.36-.54.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_79" data-name="Path 79" d="M9.97,4.28l.22.61.66.03-.52.4.18.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_80" data-name="Path 80" d="M13.85,4.28l.22.61.66.03-.52.4.18.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_81" data-name="Path 81" d="M17.73,4.28l.22.61.66.03-.52.4.18.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_82" data-name="Path 82" d="M21.61,4.28l.22.61.66.03-.51.4.17.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_83" data-name="Path 83" d="M4.24,5.95l.23.62.65.02L4.61,7l.18.63-.55-.37-.54.37L3.87,7l-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_84" data-name="Path 84" d="M8.12,5.95l.23.62L9,6.59,8.49,7l.17.63-.54-.37-.54.37L7.75,7l-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_85" data-name="Path 85" d="M12,5.95l.23.62.65.02L12.37,7l.18.63L12,7.26l-.54.37L11.63,7l-.51-.41.66-.02Z" fill="#fff"/>
+        <path id="Path_86" data-name="Path 86" d="M15.88,5.95l.23.62.65.02L16.25,7l.18.63-.55-.37-.54.37L15.52,7,15,6.59l.65-.02Z" fill="#fff"/>
+        <path id="Path_87" data-name="Path 87" d="M19.76,5.95l.23.62.65.02L20.13,7l.18.63-.55-.37-.54.37L19.4,7l-.52-.41.66-.02Z" fill="#fff"/>
+        <path id="Path_88" data-name="Path 88" d="M2.21,7.63l.22.61.65.03-.51.41.18.62-.54-.36-.55.36.18-.62-.52-.41.66-.03Z" fill="#fff"/>
+        <path id="Path_89" data-name="Path 89" d="M6.08,7.63l.23.61.66.03-.52.41.18.62-.55-.36-.54.36.18-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_90" data-name="Path 90" d="M9.97,7.63l.22.61.66.03-.52.41.18.62-.54-.36-.55.36.18-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_91" data-name="Path 91" d="M13.85,7.63l.22.61.66.03-.52.41.18.62-.54-.36-.55.36.18-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_92" data-name="Path 92" d="M17.73,7.63l.22.61.66.03-.52.41.18.62-.54-.36-.55.36.18-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_93" data-name="Path 93" d="M21.61,7.63l.22.61.66.03-.51.41.17.62-.54-.36-.55.36.18-.62-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_94" data-name="Path 94" d="M4.24,9.31l.23.61.65.03-.51.4.18.63-.55-.36-.54.36.17-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_95" data-name="Path 95" d="M8.12,9.31l.23.61L9,9.95l-.51.4.17.63-.54-.36-.54.36.17-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_96" data-name="Path 96" d="M12,9.31l.23.61.65.03-.51.4.18.63L12,10.62l-.54.36.17-.63-.51-.4.66-.03Z" fill="#fff"/>
+        <path id="Path_97" data-name="Path 97" d="M15.88,9.31l.23.61.65.03-.51.4.18.63-.55-.36-.54.36.18-.63L15,9.95l.65-.03Z" fill="#fff"/>
+        <path id="Path_98" data-name="Path 98" d="M19.76,9.31l.23.61.65.03-.51.4.18.63-.55-.36-.54.36.18-.63-.52-.4.66-.03Z" fill="#fff"/>
+        <path id="Path_99" data-name="Path 99" d="M2.21,10.98l.22.62.65.02-.51.41.18.63-.54-.36-.55.36.18-.63-.52-.41.66-.02Z" fill="#fff"/>
+        <path id="Path_100" data-name="Path 100" d="M6.08,10.98l.23.62.66.02-.52.41.18.63-.55-.36-.54.36.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_101" data-name="Path 101" d="M9.97,10.98l.22.62.66.02-.52.41.18.63-.54-.36-.55.36.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_102" data-name="Path 102" d="M13.85,10.98l.22.62.66.02-.52.41.18.63-.54-.36-.55.36.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_103" data-name="Path 103" d="M17.73,10.98l.22.62.66.02-.52.41.18.63-.54-.36-.55.36.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_104" data-name="Path 104" d="M21.61,10.98l.22.62.66.02-.51.41.17.63-.54-.36-.55.36.18-.63-.51-.41.65-.02Z" fill="#fff"/>
+        <path id="Path_105" data-name="Path 105" d="M4.24,12.66l.23.61.65.03-.51.41.18.63-.55-.37-.54.37.17-.63-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_106" data-name="Path 106" d="M8.12,12.66l.23.61L9,13.3l-.51.41.17.63-.54-.37-.54.37.17-.63-.51-.41.65-.03Z" fill="#fff"/>
+        <path id="Path_107" data-name="Path 107" d="M12,12.66l.23.61.65.03-.51.41.18.63L12,13.97l-.54.37.17-.63-.51-.41.66-.03Z" fill="#fff"/>
+        <path id="Path_108" data-name="Path 108" d="M15.88,12.66l.23.61.65.03-.51.41.18.63-.55-.37-.54.37.18-.63L15,13.3l.65-.03Z" fill="#fff"/>
+        <path id="Path_109" data-name="Path 109" d="M19.76,12.66l.23.61.65.03-.51.41.18.63-.55-.37-.54.37.18-.63-.52-.41.66-.03Z" fill="#fff"/>
+        <path id="Path_110" data-name="Path 110" d="M2.21,14.34l.22.61.65.03-.51.4.18.63-.54-.36-.55.36.18-.63-.52-.4.66-.03Z" fill="#fff"/>
+        <path id="Path_111" data-name="Path 111" d="M6.08,14.34l.23.61.66.03-.52.4.18.63-.55-.36-.54.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_112" data-name="Path 112" d="M9.97,14.34l.22.61.66.03-.52.4.18.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_113" data-name="Path 113" d="M13.85,14.34l.22.61.66.03-.52.4.18.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_114" data-name="Path 114" d="M17.73,14.34l.22.61.66.03-.52.4.18.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+        <path id="Path_115" data-name="Path 115" d="M21.61,14.34l.22.61.66.03-.51.4.17.63-.54-.36-.55.36.18-.63-.51-.4.65-.03Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

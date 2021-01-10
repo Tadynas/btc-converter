@@ -1,0 +1,31 @@
+.remove-btn
+  &::after
+    display: flex
+    content: url('/images/icons/remove.svg')
+    height: 20px
+
+.add-btn
+  &::after
+    display: flex
+    content: url('/images/icons/add-small.svg')
+    height: 20px
+
+.arrow-btn
+  &::after
+    display: flex
+    content: url('/images/icons/arrow-up.svg')
+    height: 20px
+
+.container
+  max-width: 848px
+  margin: 0 auto
+  padding: 0 10px
+  @media screen and ( max-width: 848px )
+    max-width: 100%
+    
+
+  &--full-height
+    height: 100%
+
+body
+  background-color: $medium-blue

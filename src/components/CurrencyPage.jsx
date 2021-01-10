@@ -70,7 +70,7 @@ const CurrencyPage = () => {
   const handleBtcAmountChange = (e) => {
     const amount = e.target.value
     
-    if(amount.match(/^[0-9]*(?:\.[0-9]*)?$/)) {
+    if(amount.match(/^[0-9]*(?:\.[0-9]*)?$/) && (amount === '' || parseFloat(amount) < 1000000)) {
       setBtcAmount(amount)
     }
   }
@@ -88,44 +88,63 @@ const CurrencyPage = () => {
   }
 
   return (
-    <div>
-      <h1>BTC Converter</h1>
-      <input type="text" value={btcAmount} onChange={handleBtcAmountChange} />
-      <button onClick={handleDropdownState}>+</button>
-      {
-        openDropdown &&
-        <div>
+    <section className="currency">
+      <div className="container container--full-height">
+        <div className="currency__wrapper">
+          <h1>BTC Converter</h1>
+          <div className="currency__card">
+            <div className="currency__card__decoration">
+              <div className="decoration__left"></div>
+              <div className="decoration__right"></div>
+            </div>
+            <h2 className="currency__card__title">Type amount:</h2>
+            <div className="currency__card__amount">
+              <input type="text" value={btcAmount} onChange={handleBtcAmountChange} className="amount__input" />
+            </div>
+          </div>
+          <p className="currency__last-updated">Last updated: {lastUpdated}</p>
+          <div className="currency__list">
+            {
+              currencies.map((currency) => {
+                if(currency.active) {
+                  return (
+                    <div key={currency.name} className="item">
+                      <span className={"item__name " + currency.name.toLowerCase()}>{currency.name}</span>
+                      <span className="item__amount">
+                        <Currency
+                          quantity={currency.amount} 
+                          symbol={currency.symbol}
+                        />
+                      </span>
+                      <button onClick={() => { handleCurrencyState(currency.name, false) }} className="remove-btn"></button>
+                    </div>
+                  )
+                } else {
+                  return false
+                }
+              })
+            }
+          </div>
           {
-            currencies.map((currency) => (
-              !currency.active && 
-              <div key={currency.name} onClick={() => { handleCurrencyState(currency.name, true) }}>
-                <span>{currency.name}</span>
-                <span> 1 : {currency.exchangeRate} </span>
-              </div>
-            ))
+            currencies.filter((currency) => currency.active === false).length > 0 &&
+            <div className="currency__dropdown">
+            <button onClick={handleDropdownState} className={openDropdown ? 'currency__dropdown__btn arrow-btn active' : 'currency__dropdown__btn arrow-btn'}>Add currency</button>
+              {
+                openDropdown &&
+                  currencies.map((currency) => (
+                    !currency.active && 
+                    <div key={currency.name} className="item">
+                      <span className={"item__name " + currency.name.toLowerCase()}>{currency.name} : BTC</span>
+                      <span className="item__amount">{currency.exchangeRate} : 1</span>
+                      <button onClick={() => { handleCurrencyState(currency.name, true) }} className="add-btn"></button>
+                    </div>
+                  ))
+              }
+            </div>
           }
         </div>
-      }
-      {
-        currencies.map((currency) => {
-          if(currency.active) {
-            return (
-              <div key={currency.name}>
-                <span>{currency.name}</span>
-                <Currency
-                  quantity={currency.amount} 
-                  symbol={currency.symbol}
-                />
-                <button onClick={() => { handleCurrencyState(currency.name, false) }}>X</button>
-              </div>
-            )
-          } else {
-            return false
-          }
-        })
-      }
-      <p>Last updated: {lastUpdated}</p>
-    </div>
+      </div>
+    </section>
   )
 }
 
