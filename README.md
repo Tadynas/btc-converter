@@ -1,4 +1,4 @@
-## IP BTC Converter [(Live Version)](https://vibrant-brattain-a3bfe8.netlify.app)
+## BTC Converter [(Live Version)](https://vibrant-brattain-a3bfe8.netlify.app)
 
 React.js project that tracks live Bitcoin price and converts it to different currencies.
 
